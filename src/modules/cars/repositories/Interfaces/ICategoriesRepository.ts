@@ -1,4 +1,4 @@
-import Category from '../model/Category'
+import Category from '../../model/Category'
 
 // DTO - Data Transfer Object - regra no ESLint
 export interface ICreateCategoryDTO {

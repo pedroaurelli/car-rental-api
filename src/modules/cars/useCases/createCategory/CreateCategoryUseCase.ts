@@ -2,7 +2,7 @@
 
 // Apenas para padronizar a nomeclatura, mas o useCase é o SERVICE*
 
-import ICategoriesRepository from '../../repositories/ICategoriesRepository'
+import ICategoriesRepository from '../../repositories/Interfaces/ICategoriesRepository'
 
 interface IRequest {
   name: string

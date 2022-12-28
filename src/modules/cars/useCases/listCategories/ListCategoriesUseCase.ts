@@ -1,5 +1,5 @@
 import Category from '../../model/Category'
-import ICategoriesRepository from '../../repositories/ICategoriesRepository'
+import ICategoriesRepository from '../../repositories/Interfaces/ICategoriesRepository'
 
 export default class ListCategoriesUseCase {
   constructor(private categoriesRepository: ICategoriesRepository) {}
