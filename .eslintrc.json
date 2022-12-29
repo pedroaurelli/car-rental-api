@@ -19,7 +19,7 @@
         "eslint-plugin-import-helpers"
     ],
     "rules": {
-        "arrow-parens": ["error", "as-needed"],
+        "arrow-parens": "off",
         "arrow-body-style": "off",
         "comma-dangle": ["error", "never"],
         "linebreak-style": ["error", "windows"],
